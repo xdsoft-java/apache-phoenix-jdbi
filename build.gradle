@@ -1,0 +1,19 @@
+plugins {
+    id 'application'
+}
+
+application {
+    mainClass = 'Main'
+}
+
+group 'com.github.xdsoft-java'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.jdbi:jdbi3-core:3.18.1'
+    implementation 'org.apache.phoenix:phoenix-core:5.0.0-HBase-2.0'
+}
